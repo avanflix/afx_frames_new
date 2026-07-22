@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  /* Brand Colors */
+  --primary: #B4552F;
+  --primary-dark: #8F4325;
+  --primary-light: #D9A066;
+}
+
+* {
+  border-color: theme("colors.line");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme("colors.bg");
+  color: theme("colors.ink");
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--primary);
+  color: #FFFFFF;
+}
+
+/* ---- Glass surface, used sparingly for nav + floating cards ---- */
+.glass {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+}
+
+/* ---- Soft animated gradient blob, used behind heroes ---- */
+.blob {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(90px);
+  opacity: 0.14;
+  pointer-events: none;
+}
+
+/* ---- Underline hover, used on nav/text links ---- */
+.underline-fade {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.35s ease;
+}
+
+.underline-fade:hover {
+  background-size: 100% 1px;
+}
+
+/* ---- Recognition marquee ---- */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+/* ---- Card lift on hover ---- */
+.card-lift {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-6px);
+}
+
+/* ---- Gradient border on hover ---- */
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(135deg,
+      var(--primary),
+      var(--primary-dark));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gradient-border:hover::before {
+  opacity: 1;
+}
+
+/* ---- Scrollbar (subtle) ---- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCD7CC;
+  border-radius: 999px;
+}

@@ -15,7 +15,7 @@ export default function ContactPage() {
       <div className="relative mx-auto max-w-5xl px-6 md:px-10 py-16 md:py-24">
         <Reveal>
           <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-            Contact
+            Let's Create Together
           </p>
           <h1 className="font-display text-4xl md:text-6xl font-bold mb-6 text-balance">
             Let&apos;s frame it.

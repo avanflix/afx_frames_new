@@ -13,14 +13,14 @@ export default function Footer() {
               Got something worth <span className="text-primary italic">framing?</span>
             </p>
             <p className="text-muted text-sm mt-2 max-w-sm">
-              We look forward to bringing your vision to life.
+              We look forward to bringing yBehind the Lens to life.
             </p>
           </div>
           <Link
             href="/contact"
             className="group relative inline-flex shrink-0 items-center gap-2 rounded-full bg-grad-primary text-white px-6 py-3.5 text-sm font-semibold shadow-glow hover:shadow-softLg transition-all"
           >
-            Start a project
+            Start Your Transformation
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
@@ -78,7 +78,7 @@ export default function Footer() {
             Enquiries
           </p>
           <ul className="space-y-3 text-sm">
-            <li><Link href="/contact" className="underline-fade">Start a project →</Link></li>
+            <li><Link href="/contact" className="underline-fade">Start Your Transformation →</Link></li>
           </ul>
         </div>
       </div>

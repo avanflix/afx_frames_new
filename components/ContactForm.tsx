@@ -119,7 +119,7 @@ export default function ContactForm() {
         <textarea
           required
           rows={2}
-          placeholder="Tell us about your vision, preferred location or anything you'd like us to know..."
+          placeholder="Tell us about yBehind the Lens, preferred location or anything you'd like us to know..."
           className="mt-2 w-full resize-none rounded-xl2 border border-line bg-surface px-4 py-3 text-ink placeholder:text-muted/60 outline-none transition-all focus:border-primary focus:ring-4 focus:ring-primary/10"
         />
       </label>

@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <div className="relative mx-auto max-w-6xl px-6 md:px-10 pt-16 md:pt-24 pb-16 md:pb-20">
         <Reveal className="max-w-2xl mb-14">
           <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-            Studio specialities
+            Our Expertise
           </p>
           <h1 className="font-display text-4xl md:text-6xl font-bold leading-tight text-balance mb-6">
             Signature <span className="text-primary italic">Services</span>
@@ -47,12 +47,15 @@ export default function ServicesPage() {
           ))}
         </StaggerGrid>
 
-        <Reveal direction="scale" className="grid grid-cols-2 gap-4 md:gap-6 max-w-3xl">
+        <Reveal direction="scale" className="grid grid-cols-3 gap-10 md:gap-10 max-w-5xl">
           <div className="relative aspect-[4/5] rounded-xl3 overflow-hidden shadow-soft">
             <Image src="/photos/services-1.jpg" alt="AFX Frames signature service shoot" fill sizes="(min-width: 768px) 25vw, 45vw" className="object-cover" />
           </div>
           <div className="relative aspect-[4/5] rounded-xl3 overflow-hidden shadow-soft mt-8">
-            <Image src="/photos/services-2.jpg" alt="AFX Frames signature service shoot" fill sizes="(min-width: 768px) 25vw, 45vw" className="object-cover" />
+            <Image src="/photos/studio-6.jpg" alt="AFX Frames signature service shoot" fill sizes="(min-width: 768px) 25vw, 45vw" className="object-cover" />
+          </div>
+          <div className="relative aspect-[4/5] rounded-xl3 overflow-hidden shadow-soft">
+            <Image src="/photos/studio-8.jpg" alt="AFX Frames signature service shoot" fill sizes="(min-width: 768px) 25vw, 45vw" className="object-cover" />
           </div>
         </Reveal>
       </div>
@@ -62,7 +65,7 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-6xl px-6 md:px-10">
           <Reveal className="mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-balance">
-              Our <span className="text-primary italic">Services</span>
+              Signature <span className="text-primary italic">Services</span>
             </h2>
           </Reveal>
           <StaggerGrid className="grid sm:grid-cols-2 md:grid-cols-4 gap-5">

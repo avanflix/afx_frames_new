@@ -64,7 +64,7 @@ export default function Nav() {
               href="/contact"
               className="group inline-flex items-center gap-2 rounded-full bg-grad-primary text-white pl-5 pr-4 py-2.5 text-sm font-medium shadow-glow hover:shadow-softLg transition-shadow"
             >
-              Start a project
+              Start Your Transformation
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>
@@ -96,7 +96,7 @@ export default function Nav() {
               onClick={() => setOpen(false)}
               className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-grad-primary text-white px-5 py-3 text-sm font-medium"
             >
-              Start a project
+              Start Your Transformation
               <ArrowRight className="w-4 h-4" />
             </Link>
           </nav>

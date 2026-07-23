@@ -36,7 +36,7 @@ export default function Home() {
                 href="/work"
                 className="group inline-flex items-center gap-2.5 rounded-full bg-grad-primary text-white pl-6 pr-3 py-3 text-sm font-semibold shadow-glow hover:shadow-softLg transition-all"
               >
-                See the work
+                View Portfolio
                 <span className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
                   <ArrowRight className="w-3.5 h-3.5" />
                 </span>
@@ -45,7 +45,7 @@ export default function Home() {
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-semibold text-ink hover:border-primary hover:text-primary transition-colors"
               >
-                Start a project
+                Start Your Transformation
               </Link>
             </div>
           </Reveal>
@@ -93,7 +93,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.1} className="md:col-span-7">
             <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-              About the studio
+              Meet AFX Frames
             </p>
             <h2 className="font-display text-3xl md:text-5xl font-bold leading-tight text-balance mb-6">
               A Premium <span className="text-primary italic">Creative Studio</span>
@@ -133,7 +133,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.1} className="md:col-span-8">
             <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-              Our vision
+              Behind the Lens
             </p>
             <blockquote className="font-display text-2xl md:text-4xl font-semibold leading-snug text-balance mb-6">
               &ldquo;We don&apos;t just create portfolios.&rdquo;
@@ -157,7 +157,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 md:px-10">
           <Reveal className="flex items-end justify-between mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-ink italic">
-              Our Work
+              Our <span className="text-primary italic">Portfolio</span>
             </h2>
             <Link href="/work" className="text-sm font-semibold text-primary underline-fade hidden sm:inline-flex items-center gap-1.5">
               View all <ArrowRight className="w-3.5 h-3.5" />
@@ -193,7 +193,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 md:px-10">
           <Reveal>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-14">
-              What Our <span className="text-primary italic">Clients</span> Say
+              Client <span className="text-primary italic">Stories</span>
             </h2>
           </Reveal>
 
@@ -260,7 +260,7 @@ export default function Home() {
               Thank <span className="text-primary italic">you.</span>
             </h2>
             <p className="relative mt-5 text-muted max-w-lg mx-auto leading-relaxed">
-              We look forward to bringing your vision to life through
+              We look forward to bringing yBehind the Lens to life through
               compelling visuals that inspire, connect, and create lasting
               impact.
             </p>
@@ -268,7 +268,7 @@ export default function Home() {
               href="/contact"
               className="relative mt-10 inline-flex items-center gap-3 bg-grad-primary text-white px-8 py-4 rounded-full text-sm font-semibold shadow-glow hover:scale-[1.03] transition-transform"
             >
-              Start a project
+              Start Your Transformation
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

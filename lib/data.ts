@@ -75,7 +75,7 @@ export const whyAfx: WhyItem[] = [
   },
   {
     number: "03",
-    title: "State-of-the-Art Studio",
+    title: "State of the Art Studio",
     detail: "Professional lighting, backdrops & equipment for flawless results.",
   },
   {
@@ -126,7 +126,7 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-// "Our Work" — the first gallery on the work page
+// "Our Portfolio" — the first gallery on the work page
 export const workGallery: string[] = [
   "/photos/work-1.jpg",
   "/photos/work-2.jpg",

@@ -17,10 +17,10 @@ export default function StudioPage() {
       <div className="relative mx-auto max-w-6xl px-6 md:px-10 pt-16 md:pt-24 pb-10">
         <Reveal>
           <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-            Why AFX Frames
+            The AFX Difference
           </p>
           <h1 className="font-display text-4xl md:text-6xl font-bold leading-tight text-balance max-w-3xl">
-            Why <span className="text-primary italic">AFX Frames</span>
+            The <span className="text-primary italic">AFX Difference</span>
           </h1>
         </Reveal>
       </div>
@@ -50,12 +50,12 @@ export default function StudioPage() {
         </Reveal>
       </div>
 
-      {/* BEHIND THE SCENES */}
+      {/* Inside AFX Frames */}
       <div className="relative bg-surface py-20 md:py-28 mt-10">
         <div className="mx-auto max-w-6xl px-6 md:px-10 grid md:grid-cols-12 gap-10 items-center">
           <Reveal className="md:col-span-6">
             <p className="font-mono text-[11px] tracking-widest2 uppercase text-primary font-medium mb-6">
-              Behind the scenes
+              Inside AFX Frames
             </p>
             <h2 className="font-display text-3xl md:text-5xl font-bold leading-tight text-balance mb-6">
               Every Great Shot Starts <span className="text-primary italic">Before the Camera Clicks</span>
@@ -77,7 +77,7 @@ export default function StudioPage() {
             <div className="relative aspect-[3/4] rounded-xl3 overflow-hidden shadow-soft mt-8">
               <Image
                 src="/photos/behind-1.jpg"
-                alt="Behind the scenes at AFX Frames"
+                alt="Inside AFX Frames at AFX Frames"
                 fill
                 sizes="(min-width: 768px) 20vw, 45vw"
                 className="object-cover"
@@ -86,7 +86,7 @@ export default function StudioPage() {
             <div className="relative aspect-[3/4] rounded-xl3 overflow-hidden shadow-soft">
               <Image
                 src="/photos/behind-2.jpg"
-                alt="Behind the scenes at AFX Frames"
+                alt="Inside AFX Frames at AFX Frames"
                 fill
                 sizes="(min-width: 768px) 20vw, 45vw"
                 className="object-cover"

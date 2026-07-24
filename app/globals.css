@@ -9,9 +9,13 @@
   --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
 
   /* Brand Colors */
-  --primary: #B4552F;
-  --primary-dark: #8F4325;
-  --primary-light: #D9A066;
+  --primary: #CC191E;
+  --primary-dark: #A21418;
+  --primary-light: #E45A5F;
+
+  /* Optional supporting colors */
+  --primary-soft: #FCEBEC;
+  --primary-border: #F5C2C4;
 }
 
 * {

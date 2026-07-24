@@ -15,10 +15,10 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-7xl px-6 md:px-10 md:pb-20 flex flex-col-reverse md:flex-row items-center justify-between">
           <Reveal className="w-full md:flex-1 text-center md:text-left  md:mx-10">
-            <h1 className="font-display text-balance text-[15vw] leading-[0.88] md:text-[7rem] md:leading-[0.88] font-bold tracking-[-0.06em]">
-              <span className="text-primary italic">
-                Afx
-              </span>{"    "}
+            <h1 className="font-display text-balance text-[15vw] leading-[0.9] md:text-[7rem] md:leading-[0.9] font-semibold tracking-[-0.04em]">
+              <span className="text-primary">
+                AFX
+              </span>{" "}
               <span className="text-zinc-900">
                 Frames
               </span>
